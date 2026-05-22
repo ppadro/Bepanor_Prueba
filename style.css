@@ -1,0 +1,28 @@
+/* Sección completa en fondo blanco */
+#clients {
+  background: #fff;
+  padding: 40px 0;
+}
+
+/* Placa blanca con borde gris */
+#clients .section-inner {
+  background: #fff;
+  padding: 30px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+/* Grilla blanca */
+.clients-grid {
+  background: #fff;
+}
+
+/* Cada celda blanca */
+.client-cell {
+  background: #fff;
+}
+#clients .clients-grid,
+#clients .client-cell,
+#clients .client-cell * {
+  background: #fff !important;
+}
